@@ -1,0 +1,54 @@
+/* Full page background reset */
+html, body {
+margin: 0;
+padding: 0;
+background-color: #ffffff; 
+font-family: 'Segoe UI', Inter, system-ui, sans-serif;
+min-height: 100vh;
+}
+
+/* Main content wrapper */
+.app-container {
+max-width: 650px;
+margin: 40px auto;
+padding: 20px;
+}
+
+/* Professional Page Heading */
+.app-title {
+color: #1e293b;
+font-size: 2.2rem;
+margin-top: 0;
+margin-bottom: 20px;
+border-bottom: 2px solid #e2e8f0;
+padding-bottom: 15px;
+}
+
+/* Clean Card Layout */
+.course-card {
+border: 1px solid #cbd5e1;
+background-color: #f8fafc; /* Subtle light gray background for individual cards */
+padding: 20px;
+margin: 20px 0;
+border-radius: 8px;
+box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+/* Card Course Heading */
+.course-title {
+margin: 0 0 12px 0;
+color: #0f172a;
+font-size: 1.4rem;
+}
+
+/* Metadata Text */
+.course-detail {
+margin: 6px 0;
+color: #475569;
+font-size: 0.95rem;
+}
+
+/* Strong Labels */
+.course-detail strong {
+color: #0f172a;
+}
